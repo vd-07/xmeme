@@ -1,0 +1,34 @@
+{
+  "name": "xmeme-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developedbyed/glass-website.git"
+  },
+  "author": "Vivek Dubey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developedbyed/glass-website/issues"
+  },
+  "homepage": "https://github.com/developedbyed/glass-website#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.21.1",
+    "dotenv": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
