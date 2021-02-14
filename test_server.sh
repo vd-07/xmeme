@@ -5,8 +5,8 @@
 
 # cd to the cloned repo directory
 
-# git config --global user.name "Vivek Dubey"
-# git config --global user.email "dubey.vivek.2805@gmail.com"
+git config --global user.name "Vivek Dubey"
+git config --global user.email "dubey.vivek.2805@gmail.com"
 
 git clone https://gitlab.crio.do/COHORT_ME_BUILDOUT_XMEME_ENROLL_1612436694845/dubey-vivek-2805-me_buildout_xmeme
 
@@ -67,5 +67,5 @@ curl --location --request GET 'http://localhost:8081/memes'
 
 # If you have swagger enabled, make sure it is exposed at localhost:8080
 
-curl --location --request GET 'http://localhost:8080/swagger-ui/'
+# curl --location --request GET 'http://localhost:8080/swagger-ui/'
 
