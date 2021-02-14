@@ -1,11 +1,11 @@
-# install nvm 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+# # install nvm 
+# curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
-# activate nvm
-. ~/.nvm/nvm.sh
+# # activate nvm
+# . ~/.nvm/nvm.sh
 
-nvm install 14.7.0
-
+# nvm install 14.7.0
+sudo apt install nodejs
 # install mongoDB
 
 wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
