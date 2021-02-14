@@ -4,8 +4,14 @@
 # # activate nvm
 # . ~/.nvm/nvm.sh
 
-# nvm install 14.7.0
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+
 sudo apt install nodejs
+
+
+# nvm install node
+
+
 # install mongoDB
 
 wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -

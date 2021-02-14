@@ -2,8 +2,6 @@ cd backend
 
 # setup mongoDB
 
-
-
 npm install
 
-npm start
+node app.js

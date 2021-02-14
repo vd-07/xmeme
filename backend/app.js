@@ -28,12 +28,12 @@ app.get('/', (req, res) => {
 
 mongoose.connect(
     process.env.MONGODB_URI,
-    { useNewUrlParser: true, useUnifiedTopology: true },
+    { useNewUrlParser: true, useUnifiedTopology: true, useMongoClient: true },
     () => {console.log("Connected to DB");
 });
 
 // Start listening to the server
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 8081, () => {
     console.log(`Server listening at port : ${process.env.PORT}`);
 });
